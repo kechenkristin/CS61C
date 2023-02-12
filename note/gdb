@@ -1,0 +1,16 @@
+gcc -g -o int_hello interactive_hello.c
+./int_hello
+
+cgdb int_hello
+
+################# cgbd ##################
+basic
+r -run
+b -breakPoint i.e. b main b 10
+n -next
+p -print value
+s -step into a function
+
+advanced
+shell can use terminal cammand in cgbd
+set logging on -Copying output to gbd.txt
